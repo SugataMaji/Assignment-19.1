@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ARRIVALS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	    <link href="css/inline.css" rel="stylesheet">
+
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!--Start Icons for Pwa-->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="img/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="img/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="img/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="img/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="img/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+<link rel="manifest" href="img/icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+    <!--Start icons for pwa-->
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">ARRIVALS</a>
+     
+      </div>
+    </nav>
+<div class="container">
+    <main class="main">
+  <div class="arrivallist">
+    <p class="arrivallistp1">Bangalore to Kolkata</p>
+    <p class="arrivallistp2"><span  class="arrivallistspan1">08.45</span><span  class="arrivallistspan2 ontime">On time</span></p>
+  </div>
+  <div class="arrivallist">
+    <p class="arrivallistp1">Bangalore to Chennai</p>
+    <p class="arrivallistp2"><span  class="arrivallistspan1">09.45</span><span  class="arrivallistspan2 ontime">On time</span></p>
+  </div>
+  <div class="arrivallist">
+    <p class="arrivallistp1">Bangalore to Goa</p>
+    <p class="arrivallistp2"><span  class="arrivallistspan1">10.00</span><span  class="arrivallistspan2 delay">Delay</span></p>
+  </div>
+   <div class="arrivallist">
+    <p class="arrivallistp1">Bangalore to Kerala</p>
+    <p class="arrivallistp2"><span  class="arrivallistspan1">10.30</span><span  class="arrivallistspan2 delay">Delay</span></p>
+  </div>
+  <div class="arrivallist">
+    <p class="arrivallistp1">Bangalore to Hyderabad</p>
+    <p class="arrivallistp2"><span  class="arrivallistspan1">11.00</span><span  class="arrivallistspan2 ontime">On time</span></p>
+  </div>
+  <div class="arrivallist">
+    <p class="arrivallistp1">Bangalore to Mumbai</p>
+    <p class="arrivallistp2"><span  class="arrivallistspan1">11.45</span><span  class="arrivallistspan2 delay">Delay</span></p>
+  </div>
+  <div class="arrivallist">
+    <p class="arrivallistp1">Bangalore to Delhi</p>
+    <p class="arrivallistp2"><span  class="arrivallistspan1">12.05</span><span  class="arrivallistspan2 ontime">On time</span></p>
+  </div>
+  
+ </main>
+ </div>
+
+    <!-- Service worker registration -->
+    <script type="text/javascript">
+    if (navigator.serviceWorker.controller) {
+  console.log('[PWA Builder] active service worker found, no need to register')
+} else {
+  //Register the ServiceWorker
+  navigator.serviceWorker.register('pwabuilder-sw.js', {
+    scope: './'
+  }).then(function(reg) {
+    console.log('Service worker has been registered for scope:'+ reg.scope);
+  });
+}
+    </script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+
+  </body>
+
+</html>
